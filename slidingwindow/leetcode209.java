@@ -8,10 +8,11 @@ public class leetcode209 {
 // Output: 2
 // Explanation: The subarray [4,3] has the minimal length under the problem constraint.
 // // 
-    public static void main(String[] args) {
-        
-    }
-    public static int subarraysize(int[] arr,int k){
+
+    public static void main(String[] args){}
+
+    
+    public static void subarraysize(int[] arr,int k){
                 int sum=0;
                 int ei=0;
                 int si=0;

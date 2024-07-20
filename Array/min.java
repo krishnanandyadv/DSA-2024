@@ -7,6 +7,7 @@ public static void main(String[] args) {
     System.out.println(minimun(arr));
 
 }
+//krishna
 public static int minimun(int[] arr ){
     int min =arr[0];
     for(int i=1;i<arr.length;i++){
