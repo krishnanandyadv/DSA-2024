@@ -62,8 +62,6 @@ public void Display(){
         System.out.println(s.peek());
         s.push(5);
         s.push(0);
-        s.push(0);
-        s.push(0);
-        s.push(0);
+        
       }
 }
