@@ -6,10 +6,11 @@ public class Student_client {
         s.age=23;
         s.name="krishna";
         System.out.println(s.age);
-        System.out.println("fedf");
+        s.dame(25);
         Student s2=new Student();
         s2.age=41;
         s2.name="khushi";
+        
 
     }
 }

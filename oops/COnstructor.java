@@ -6,17 +6,18 @@ public class COnstructor {
     
     public COnstructor(){
               this.name="moti";
-              this.age=23;
+              this.age=90;
     }
     
-    public COnstructor(String name,int age){
+    public COnstructor(String na,int age){
               this.name="moti";
               this.age=23;
     }
 
 public void fun(){
     int adhar=19672;
-    System.out.println(this.name+" " +this.age+" " +adhar );
+    int age=20;
+    System.out.println(this.name+" " +age+" " +adhar );
 }
 
 }

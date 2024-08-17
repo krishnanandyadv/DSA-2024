@@ -1,7 +1,8 @@
+
 public  class Stack {
 
-    private int[] data;
-    private int top=0;
+    protected int[] data;
+    protected int top=0;
     public Stack(){
         this.data =new int[5];
     }
@@ -60,8 +61,7 @@ public void Display(){
         System.out.println(s.pop());
         // s.Display();
         System.out.println(s.peek());
-        s.push(5);
-        s.push(0);
+       
         
       }
 }
